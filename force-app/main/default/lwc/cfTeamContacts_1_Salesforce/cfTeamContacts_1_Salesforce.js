@@ -10,7 +10,7 @@ import { FlexCardMixin } from "omnistudio/flexCardMixin";
           
           import styleDef from "./styleDefinition";
               
-          export default class cfTeamContactsParent_1_Salesforce extends FlexCardMixin(LightningElement){
+          export default class cfTeamContacts_1_Salesforce extends FlexCardMixin(LightningElement){
               currentPageReference;        
               @wire(CurrentPageReference)
               setCurrentPageReference(currentPageReference) {

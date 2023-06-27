@@ -3,7 +3,7 @@
             <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
   <omnistudio-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </omnistudio-toast>
 </div>
-            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+            <div if:true={showLoader} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: transparent; z-index: 99;">
   <div>
    <omnistudio-spinner
       variant="brand"
@@ -29,8 +29,9 @@
       </div>
         </div></omnistudio-block>
     </div><div data-style-id="state0element1" class="slds-col   slds-p-around_x-small slds-size_12-of-12 " data-rindex={rindex} style="" >
-    <omnistudio-block data-style-id="state0element1_child"  card={card}  record={record}  label="Block"  collapsible="true"  collapsed-by-default="false"  theme="slds"  ><div class="slds-grid slds-wrap">
-          
+    <omnistudio-block data-style-id="state0element1_child"  card={card}  record={record}  label=""  collapsible="true"  collapsed-by-default="true"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="slds-col   slds-size_12-of-12 " data-rindex={rindex} style="" ><c-cf-team-contacts data-style-id="state0element1block_element0_child"  tracking-obj={_childCardTrackingObj}  is-inside-parent={insideParent} parent-uniquekey={uniqueKey}  card-node=""  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  is-child-card-tracking-enabled="false"  object-api-name={objectApiName}  theme="slds"   onupdateparent={updateParentData}></c-cf-team-contacts>
+    </div>
         </div></omnistudio-block>
     </div>
         </div>
@@ -48,8 +49,9 @@
       </div>
         </div></omnistudio-block>
     </div><div data-style-id="state0element1" class="slds-col   slds-p-around_x-small slds-size_12-of-12 " data-rindex={rindex} style="" >
-    <omnistudio-block data-style-id="state0element1_child"  card={card}  record={record}  label="Block"  collapsible="true"  collapsed-by-default="false"  theme="slds"  ><div class="slds-grid slds-wrap">
-          
+    <omnistudio-block data-style-id="state0element1_child"  card={card}  record={record}  label=""  collapsible="true"  collapsed-by-default="true"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="slds-col   slds-size_12-of-12 " data-rindex={rindex} style="" ><c-cf-team-contacts data-style-id="state0element1block_element0_child"  tracking-obj={_childCardTrackingObj}  is-inside-parent={insideParent} parent-uniquekey={uniqueKey}  card-node=""  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  is-child-card-tracking-enabled="false"  object-api-name={objectApiName}  theme="slds"   onupdateparent={updateParentData}></c-cf-team-contacts>
+    </div>
         </div></omnistudio-block>
     </div>
         </div>
